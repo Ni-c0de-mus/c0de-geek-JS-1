@@ -1,3 +1,9 @@
+setTimeout(wakeUpUser, 5000);
+function wakeUpUser() {
+alert("Are you going to stare at this boring page forever?");
+}
+
+
 console.log('test');
 
 var firstName = 'Nic';
@@ -46,4 +52,47 @@ console.log(d);
 /* Comparison Operators */
 
 var e = 7;
-var f = 12;
+var f = '7';
+
+/*
+e == f  true
+
+e === f  false
+
+
+    Type Coercion */
+
+var g = 10 + '5';
+console.log(g);
+
+var h = 'hello ' + 'dear ' + 'student';
+console.log(h);
+
+var i = 5 + 10 + 'b';
+console.log(i);
+
+var j = 'b' + 5 + 10;
+console.log(j);
+
+/* Conditional Statement */
+
+var myChild = 'Alexis';
+var gender = 'male';
+
+if(gender === 'male') {
+    console.log(myChild + ' is my son.');
+} else {
+
+    console.log(myChild + ' is my daughter');
+}
+
+if(gender === 'female') {
+    console.log(myChild + ' is my son.');
+} else {
+
+    console.log(myChild + ' is my daughter');
+}
+
+
+
+
